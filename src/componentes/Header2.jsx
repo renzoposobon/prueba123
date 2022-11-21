@@ -1,4 +1,4 @@
-import logo from '../public/img/logo-faro.png';
+
 import { Fragment, useState } from 'react'
 import { Dialog, Popover, Tab, Transition } from '@headlessui/react'
 import { Bars3Icon, MagnifyingGlassIcon, ShoppingBagIcon, XMarkIcon } from '@heroicons/react/24/outline'
@@ -181,8 +181,7 @@ export default function Example() {
                   <span className="sr-only">Your Company</span>
                   <img
                     className="h-8 w-auto logo"
-                    // src={'../public/img/logo-faro.png'}
-                    src={ logo }
+                    src={require('../img/logo-faro.png')}
                     alt=""
                   />
                 </a>
